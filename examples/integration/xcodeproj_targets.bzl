@@ -80,6 +80,18 @@ UNFOCUSED_TARGETS = [
     "//Lib:LibFramework.iOS",
 ]
 
+FOCUSET_TARGETS = [
+    "//iOSApp/Source:iOSApp",
+    "//Lib",
+    "//iMessageApp:iMessageApp",
+    "//WidgetExtension:WidgetExtension",
+    "//iMessageApp:iMessageAppExtension",
+    "//iOSApp/Test/SwiftUnitTests:iOSAppSwiftUnitTests",
+    "//iOSApp/Test/SwiftUnitTests:iOSAppSwiftUnitTestSuite",
+    "//iOSApp/Test/ObjCUnitTests:iOSAppObjCUnitTests",
+    "//iOSApp/Test/ObjCUnitTests:iOSAppObjCUnitTestSuite",
+]
+
 XCODEPROJ_TARGETS = [
     "//cc/tool",
     top_level_target(
